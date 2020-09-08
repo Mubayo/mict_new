@@ -130,21 +130,29 @@ main{
     vertical-align: top;
     margin-left: 3%;
 }
-.enquiry_title{
-    width: 50%;
-    height: 100%;
-    font-size: 300%;
+.contact{
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+}
+.enquiry_title p{
+    width: 40%;
+    display: inline-block;
+    font-size:300%;
+    top: 0;
+    vertical-align: middle;
 }
 .enquiry_form{
+    display: inline-block;
     width: 50%;
     height: fit-content;
-    margin: 10;
-    display: inline;
-    float: none;
+    margin-left: 5%;
 }
-.enquiry_form form input{
+.enquiry_form form input,textarea{
     display: block;
-    margin: 20px;
+    margin: 10px;
+    width: 60%;
+    border-radius: 3%;
 }
 .help{
     position: fixed;
