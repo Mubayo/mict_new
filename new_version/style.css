@@ -1,0 +1,168 @@
+/* 
+body
+    header
+        .company
+            .logo
+            .logo-text
+        .navbar
+            .navbar li 
+    main
+        .headings
+            .head_image
+            .head_text
+        .features
+            .feature
+        .products
+            .product
+        .differences
+            #diff-image
+            .diff-text
+        .contact
+    footer
+        .copyright
+*/
+body{
+    margin: 0px;
+}
+header{
+    /* background: linear-gradient(rgb(36, 0, 0) 50%,rgb(114, 5, 5)); */
+    background-color: darkblue;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height:fit-content;
+}
+.company{
+    text-align: center;
+    width: 30%;
+    margin: 0% 1% 0%;
+    display: inline-block;
+}
+#logo{
+    vertical-align: middle;
+    width: 100px;
+    height: 90%;
+}
+.logo-text{
+    display: inline-block;
+    color: white;
+}
+.navbar{
+    margin-left: 10%;
+    width: 50%;
+    display: inline-block;
+    list-style-type: none;
+}
+.navbar li{
+    color: white;
+    display: inline;
+    padding: 5%;
+}
+main{
+    margin: 0% 0% 0%;
+    padding: 5% 0% 0%;
+    height: fit-content;
+}
+#head_image{
+    width: 100%;
+    height: 500px;
+}
+#head_text{
+    width: 100%;
+    font-size: 200%;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    display: block;
+    top: 130px;
+}
+#head_text h1{
+    color: white;
+}
+#head_text p{
+    color: darkred;
+}
+.sub_heading_text{
+    color: white;
+}
+.category{
+    margin: 0;
+    padding: 2%;
+    /* background-color:black; */
+    color: darkblue;
+    font-size: 200%;
+}
+.features{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+.feature{
+    width: 20%;
+    margin: 2%;
+    display: inline-block;
+}
+.products{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+}
+.product{
+    flex-direction: row;
+    width:700px;
+    height: 50%;
+}
+.differences{
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+}
+#diff-image{
+    max-width: 700px;
+    width: 50%;
+    height: 500px;
+}
+.diff-text{
+    display: inline-block;
+    width: 40%;
+    margin-top: 0px;
+    vertical-align: top;
+    margin-left: 3%;
+}
+.enquiry_title{
+    width: 50%;
+    height: 100%;
+    font-size: 300%;
+}
+.enquiry_form{
+    width: 50%;
+    height: fit-content;
+    margin: 10;
+    display: inline;
+    float: none;
+}
+.enquiry_form form input{
+    display: block;
+    margin: 20px;
+}
+.help{
+    position: fixed;
+    z-index: 10;
+    background-color: darkred;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    top: 80%;
+    right: 1%;
+}
+footer{
+    bottom: 0px;
+    height: 200px;
+    background-image: url('img/footer-bg.jpg');
+}
+.copyright{
+    color:white;
+    text-align: center;
+    vertical-align: bottom;
+}

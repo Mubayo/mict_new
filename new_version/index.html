@@ -1,0 +1,111 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Leran Try</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <!-- The website header which contains the navbaer,  the heading image and the heading texts. -->
+        <header>
+             <span class="company">
+                <img src="img/client5.png" alt="" id="logo">
+                <h2 class="logo-text">melo-accessories</h2>
+            </span>
+            <!-- The site main navbar contains: Home, About Us, Contact Us and the company social media links -->
+            <nav class="navbar">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>
+                    <i class="fas fas-facebook">Facebook</i>
+                    <i>Twitter</i>
+                    <i>Instagram</i>
+                </li>
+            </nav>
+            
+        </header>
+        <main>
+            <!-- The heading image and texts division with selector .headings -->
+            <div class="headings">
+                <img id="head_image" src="img/training1.jpg" width="100%"/>
+                <span id="head_text">
+                    <h1 class="heading_text">Welcome</h1>
+                <p>to</p><h4 class="sub_heading_text">The Home of Originals</h4>
+                </span>
+                
+            </div>
+            <!-- <h2 class="category"> Features</h2> -->
+            <div class="features">
+                
+                <span class="feature">
+                    <div class="icon"></div>
+                    <h5 class="feature_text">Originality</h5>
+                </span>
+                <span class="feature">
+                    <div class="icon"></div>
+                    <h5 class="feature_text">Originality</h5>
+                </span>
+                <span class="feature">
+                    <div class="icon"></div>
+                    <h5 class="feature_text">Originality</h5>
+                </span>
+            </div>
+            <h2 class="category">Products</h2>
+            <div class="products">
+                <span class="product"></span>
+                <span class="product"></span>
+                <span class="product"></span>
+                <span class="product"></span>
+            </div>
+            
+            <div class="difference">
+                <span class="diff-image"><img id="diff-image" src="img/why.jpg" alt=""></span>
+                <span class="diff-text">
+                    <h2 class="category">Why us?</h2>
+                    <article>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore expedita aut aliquam autem officiis harum non sed facilis tenetur ipsa, quas, facere, repudiandae voluptatibus cupiditate modi a quibusdam tempora dignissimos?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore expedita aut aliquam autem officiis harum non sed facilis tenetur ipsa, quas, facere, repudiandae voluptatibus cupiditate modi a quibusdam tempora dignissimos?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore expedita aut aliquam autem officiis harum non sed facilis tenetur ipsa, quas, facere, repudiandae voluptatibus cupiditate modi a quibusdam tempora dignissimos?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore expedita aut aliquam autem officiis harum non sed facilis tenetur ipsa, quas, facere, repudiandae voluptatibus cupiditate modi a quibusdam tempora dignissimos?
+                    </article>
+                </span>
+            </div>
+            <!-- enquiry heading -->
+            <h2 class="category">For Enquiry</h3>
+                <!-- enquiry section -->
+            <div class="contact">
+                <!-- enquiry title -->
+                 <section class="enquiry_title">
+                    <p>Contact us Today</p>
+                </section>
+                <!-- enquiry form -->
+                <section class="enquiry_form">
+                    
+                        <form method="POST">
+                            <input type="text" name="" id="">
+                            <input type="email" name="" id="">
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                            <input type="button" value="Send Query">
+                        </form>
+                </section>
+            </div>
+        </main>
+       
+        <!-- footer -->
+        <footer>
+
+            <!-- copyright -->
+            <p class="copyright">Copyright &copy; 2015 - <span id="currentDate"></span> All rights reserved | Mubayo ICT </p>
+        </footer>
+        <!-- floating help -->
+        <div class="help">
+            <i></i>
+        </div>
+    </body>
+    <script type="text/javascript">
+        var currentDate = new Date().getFullYear();
+        document.getElementById('currentDate').innerHTML = currentDate;
+    </script>
+    </html>
